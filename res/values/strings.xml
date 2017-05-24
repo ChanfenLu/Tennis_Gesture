@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BTClient!</string>
+    <string name="app_name">Tennis</string>
+    <string name="tinne">Tennis</string>
+    <string name="start_play">开始</string>
+    <string name="stop_play">停止</string>
+    <string name="Isright">准确度\n</string>
+    <string name="Notright">运动</string>
+    <string name="back">返回</string>
+    <string name="spinner_tip">网球动作示例</string>
+    <string name="tips_1">球拍握法：\n
+        				1.东方式：手掌伸直至底座，虎口对准边缘，拇指在食指和中指间，自然紧握\n
+        				2.西方式：虎口对准边缘，手腕握紧球拍手把，拇指倾斜握住侧面，手腕力量要够\n
+        				3.大陆式：虎口沿球拍中间线至底座，手握紧球拍，可用于正反拍击球
+        				  安全tips：利用虎口的力量握紧球拍，小心没有握紧球拍，球拍飞出，容易伤人</string>
+    <string name="tips_2">正手击球：\n
+        				1.闭锁式站立方式：左右脚尖呈直线对齐，侧身，从后面往前面挥拍\n
+        				2开放式站立方式：侧身，左右脚大致呈三角状，弯曲膝盖击球\n
+        				 安全tips：跑动击球的时候，动作要正确，小心腿部肌肉拉伤</string>
+    <string name="tips_3">双手反手击球：\n
+        				1.双手相对靠一起，左手弯曲程度更大，球拍拍头向下垂\n
+        				2.跨步向前，球拍往前，利用左手肩膀力量带动牌子往前，往上推球拍\n
+        				3.脚步移动要快，最好在球到达腰部高度击球，击球时重心往下，拍头从下往上击球\n
+        				 安全tips：反手击球利用手腕的力量，小心肩膀力量过大导致肩膀受伤</string>
+</resources>

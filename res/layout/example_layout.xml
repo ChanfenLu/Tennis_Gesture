@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   
+    <LinearLayout 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical"
+	     android:background="@drawable/b">
+     <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="25pt"
+         android:textColor="#f0f"
+         android:text="          网球教学小视频                     "/>
+     <TextView 
+	   android:id="@+id/tips"
+	   android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:singleLine="false"
+       android:textColor="#f0f"
+       android:textSize="15pt"
+       android:lines="10"
+       android:text="@string/tips_1"/>
+	
+	<LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <Button 
+        android:id="@+id/play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="开始"
+        android:background="@drawable/example_btn"/>
+    <Button 
+        android:id="@+id/pause"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+  		android:text="暂停"
+  		android:background="@drawable/example_btn"/>
+     <Button 
+        android:id="@+id/stop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+ 		android:text="停止"
+ 		android:background="@drawable/example_btn"/> 
+      <Spinner 
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:prompt="@string/spinner_tip"
+        android:background="@drawable/example_btn"/> 
+     </LinearLayout>
+    </LinearLayout>
+  
+        <VideoView
+		     android:id="@+id/videoview"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"/>
+    
+      
+	
+</LinearLayout>

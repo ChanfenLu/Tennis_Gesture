@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item 
+        android:id="@+id/search"
+        android:title="search"
+        android:orderInCategory="60"
+        android:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/clock"
+        android:title="clock"
+        android:orderInCategory="60"
+        android:showAsAction="always"
+        android:actionLayout="@layout/clock"/>
+    
+    <item 
+        android:id="@+id/example_icon"
+        android:title="example_icon"
+        android:orderInCategory="60"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_example"/>
+    <item 
+        android:id="@+id/about"
+        android:title="about"
+        android:orderInCategory="60"
+        android:showAsAction="always"/>
+  
+</menu>
